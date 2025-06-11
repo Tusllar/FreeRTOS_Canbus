@@ -16,6 +16,7 @@ Cả hai vi điều khiển sử dụng **FreeRTOS** để xử lý đa luồng,
 
 - Giao tiếp CAN Bus ổn định giữa **ESP32-C3** và **STM32F103C8T6**.
 - Đo khoảng cách bằng **SRF05** với độ chính xác cao.
+- Hiển thị khoảng cách bằng **OLED** và rate **CANBUS** để dễ dàng kiểm tra.
 - Điều khiển **2 động cơ DC** thông qua **L298N**, dựa vào dữ liệu khoảng cách nhận được.
 - Quản lý đồng bộ các tiến trình bằng **FreeRTOS + Semaphore**.
 - Phản hồi kịp thời khi khoảng cách < 20cm → dừng động cơ.
