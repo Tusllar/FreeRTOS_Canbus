@@ -29,6 +29,7 @@ Cả hai vi điều khiển sử dụng **FreeRTOS** để xử lý đa luồng,
 | ESP32-C3 DevKit | Master đo khoảng cách và gửi dữ liệu |
 | STM32F103C8T6 | Slave điều khiển động cơ |
 | SRF05 hoặc HC-SR04 | Cảm biến siêu âm đo khoảng cách |
+| OLED | Màn hình hiển thị khoảng cách và rate canbus |
 | L298N | Mạch điều khiển 2 động cơ DC |
 | Động cơ DC | Điều khiển bởi STM32 |
 | SN65HVD230 / MCP2551 | Transceiver CAN Bus cho cả hai board |
